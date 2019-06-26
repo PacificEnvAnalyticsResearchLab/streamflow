@@ -1,0 +1,16 @@
+#' Willow Whitehorse Creek
+#'
+#' A dataset containing resistor and water temperature readings from remote sensors in Willow Whitehorse Creek.
+#'
+#' @format A data frame with 71500 observations and 10 variables:
+#' \describe{
+#'   \item{date_time}{The date and time from the sensor readings.}
+#'   \item{site_id}{The ID for each site location}
+#'   \item{sensor_type}{A single column vector which describes whether the sensor readings were from the water temperature sensors or the resistor sensors.}
+#'   \item{sensor_reading}{The sensor readings for each sensor.}
+#'   \item{initial_state}{Describes the condition of the stream when sensors were placed.}
+#'   \item{final_state}{Describes the condition of the stream when sensors were removed.}
+#' }
+#' @examples
+#'   wwc
+"wwc"

@@ -1,0 +1,21 @@
+Package: streamflow
+Type: Package
+Title: Tools to Classify Streams as Wet or Dry
+Version: 0.0.1
+Author: James Molyneux, Jeffrey Mintz, Claudio Fuentes
+Maintainer: James Molyneux <molyneuj@oregonstate.edu>
+Description: Classify streams as either wet or dry using data from remote 
+    thermometers. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+  dplyr, 
+  lubridate, 
+  Rcpp (>= 0.12.19), 
+  rlang
+Suggests: 
+    testthat (>= 2.1.0)
+LinkingTo: Rcpp
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
